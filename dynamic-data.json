@@ -1,0 +1,13 @@
+[{
+    "title": "Lead Entry Form",
+    "fields": [
+      { "label": "Full_Name", "type": "text", "required": true },
+      { "label": "Email_Address", "type": "email", "required": true },
+      { "label": "Contact_Number", "type": "tel", "required": true },
+      { "label": "Lead_Type", "type": "select", "options": ["Personal", "Business"], "required": true },
+      { "label": "Company_Name", "type": "text", "required": false },
+      { "label": "Document", "type": "file", "required": false }
+    ]
+  }
+]
+  
